@@ -1,0 +1,13 @@
+
+#path: /datasets/Donnees #dataset root dir
+#train: /Users/narymanechabane/tmp/LABELIMG/dataset/DataToTrain/dataset/train/images
+#val: /Users/narymanechabane/tmp/LABELIMG/dataset/DataToTrain/dataset/val/images
+train: /Users/narymanechabane/tmp/YOLO/YOLO_image_detection_nach/identification_items/train/images
+val: /Users/narymanechabane/tmp/YOLO/YOLO_image_detection_nach/identification_items/val/images
+
+#classes
+
+#nc: 5 #number of classes
+nc: 4 #number of classes
+names: ['adult', 'child', 'creditcard', 'id']
+#names: ['adult', 'child', 'creditcard', 'id', 'nude']
